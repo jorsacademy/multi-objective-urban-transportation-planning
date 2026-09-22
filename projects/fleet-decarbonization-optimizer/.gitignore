@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local data and generated outputs
+data/*.csv
+!data/README.md
+optimized_submission.csv
+*.lp
+*.mps
+*.sol
