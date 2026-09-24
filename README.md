@@ -1,4 +1,21 @@
-# Multi-Objective Urban Transportation Planning
+# Transportation and Mobility Optimization
+
+<!-- portfolio-umbrella:start -->
+## Portfolio role
+
+This repository is the primary umbrella repository for this Jors Academy research area. Related projects have been consolidated under `projects/` so the methods, implementations, experiments, and case studies can be maintained and explored from one place.
+
+### Included projects
+
+- [`bike-share-network-optimizer`](projects/bike-share-network-optimizer/)
+- [`fleet-decarbonization-optimizer`](projects/fleet-decarbonization-optimizer/)
+- [`intercity-rail-fleet-circulation-optimization`](projects/intercity-rail-fleet-circulation-optimization/)
+- [`london-bike-share-demand-rebalancing`](projects/london-bike-share-demand-rebalancing/)
+- [`multimodal-distribution-network-genetic-algorithm`](projects/multimodal-distribution-network-genetic-algorithm/)
+- [`osm-dijkstra-travel-time-routing-optimization`](projects/osm-dijkstra-travel-time-routing-optimization/)
+
+Each consolidated project keeps its own files and a `SOURCE_REPOSITORY.md` provenance record. The snapshot preserves the source repository's default-branch files at consolidation time; repository-level history and metadata remain separate from the snapshot.
+<!-- portfolio-umbrella:end -->
 
 This repository contains a small educational Operations Research example implemented with Python and Gurobi. The model allocates integer transportation units across routes and time periods while considering three objectives: total travel time, environmental impact, and operating cost.
 
